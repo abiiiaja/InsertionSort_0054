@@ -59,3 +59,10 @@ void display(){ //Prosedur menampilkan data
     }
     cout << endl;
 }
+
+int main(){ //Program utama
+    input();
+    insertionsort();
+    display();
+    system("pause");
+}
